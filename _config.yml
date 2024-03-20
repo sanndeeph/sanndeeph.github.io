@@ -5,6 +5,17 @@ linkedin_username: sandeep-h
 github_username:  sanndeeph
 description: Senior Analyst - Data & Analytics @ Eversana
 show downloads: true
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/sanndeeph   
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/in/sandeep-h/
+    - label: "email"
+      icon: "fab fa-fw fa-email"
+      url: sanndeeph@gmail.com
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
