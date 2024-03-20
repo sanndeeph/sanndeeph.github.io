@@ -3,10 +3,10 @@ logo: /Images/San1.png
 email: sanndeeph@gmail.com
 linkedin_username: sandeep-h
 github_username:  sanndeeph
-description: Senior Analyst - Data & Analytics @ Eversana
+description: Senior Analyst - Data & Analytics @ Eversana <br><br>
+Experienced Senior Analyst in various domains, currently in the pharmaceutical domain with a total of 14+ years of experience. Proficient in developing impactful dashboards using Tableau, Power BI, and Google Looker Studio. Skilled in data extraction, analysis, and reporting, optimizing processes with tools like Alteryx, SQL queries, and excel automation. Collaborative team player, proficient at planning reporting strategies and providing mentorship. Currently acquiring Python, R, Hadoop, Data science skills by self study.
 show downloads: true
-footer:
-  links:
+links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/sanndeeph   
@@ -17,6 +17,3 @@ footer:
       icon: "fab fa-fw fa-email"
       url: sanndeeph@gmail.com
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
-  - jemoji
