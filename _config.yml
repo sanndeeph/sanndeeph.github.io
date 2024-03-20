@@ -5,6 +5,7 @@ linkedin_username: sandeep-h
 github_username:  sanndeeph
 description: Senior Analyst - Data & Analytics @ Eversana
 show downloads: true
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
 plugins:
-- jekyll-remote-theme
+  - jekyll-feed
+  - jemoji
