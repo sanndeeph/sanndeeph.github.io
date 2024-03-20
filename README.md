@@ -1,7 +1,5 @@
 # Data Analyst
 
-#### Professional Summary
-
 Experienced Senior Analyst in various domains, currently in the pharmaceutical domain with a total of 14+ years of experience. Proficient in developing impactful dashboards using Tableau, Power BI, and Google Looker Studio. Skilled in data extraction, analysis, and reporting, optimizing processes with tools like Alteryx, SQL queries, and excel automation. Collaborative team player, proficient at planning reporting strategies and providing mentorship. Currently acquiring Python, R, Hadoop, Data science skills by self study.
 
 #### Skillset
@@ -14,7 +12,7 @@ Experienced Senior Analyst in various domains, currently in the pharmaceutical d
 - Soft Skills – Strong Work Ethic, Good Communication Skills, Flexible / Adaptable, Collaborative
 
 
-### Senior Analyst @ Eversana India Pvt. Ltd. Feb 2023 - Current 
+### Senior Analyst at Eversana India Pvt. Ltd., Feb 2023 - Current 
 
 - Developed dashboards and data visualizations using Tableau, Power BI, and Google Looker Studio and utilized powerpoint as final output to effectively communicate insights to stakeholders. Improved existing dashboards for enhanced clarity, impact, and operational efficiency.
 - Extracted, analyzed, and reported data from diverse media channels and ad campaigns such as DoubleClick Campaign Manager (DCM), VEEVA CRM, and Google Ads. Processed and presented findings using MS Excel, Tableau, Power BI, and PowerPoint. Optimized SQL queries for accuracy and precision.
@@ -29,7 +27,7 @@ Experienced Senior Analyst in various domains, currently in the pharmaceutical d
 - Received recognition for outstanding performance and valuable contributions to the analytics team.
 - Managed training sessions for four new hires over a six-month period, providing guidance and mentorship throughout their onboarding process.
 
-### Senior Analyst @ Intouch Peerless Pvt Ltd., Apr 2019 – Jan 2023
+### Senior Analyst at Intouch Peerless Pvt Ltd., Apr 2019 – Jan 2023
 
 -	Collaborated with project and account managers to outline client requirements and plan upcoming reports.
 -	Developed PowerPoint presentations, Tableau, and Power BI dashboards to visualize website performance based on GA or Adobe data.
@@ -40,7 +38,7 @@ Experienced Senior Analyst in various domains, currently in the pharmaceutical d
 -	Streamlined data extraction processes by scheduling and automating tasks using Google Analytics, Adobe Analytics, Crossix, Salesforce, etc.
 -	Conducted thorough analysis of digital data to identify trends, insights, and optimization opportunities
 
-### Data Analyst @ Heckyl Technologies, Mar 2017 - Mar 2019 
+### Data Analyst at Heckyl Technologies, Mar 2017 - Mar 2019 
 
 -	Identified data sources and conducted data lineage across Pharma, REITs, Oil & Gas, and Automotive sectors.
 -	Conducted ETL and Data Mining on large datasets, optimizing for structured, clean data.
@@ -50,7 +48,7 @@ Experienced Senior Analyst in various domains, currently in the pharmaceutical d
 -	Verified and tested analytical products in UAT environment, expanding product scope with Text Analytics, Unstructured Data Analysis & NLP.
 -	Oversaw sentiment analysis and ensured quality of business news data.
 
-### Team Lead (Project Head) @ Euclid Infotech Pvt. Ltd., Apr 2016 – Mar 2017 
+### Team Lead at Euclid Infotech Pvt. Ltd., Apr 2016 – Mar 2017 
 - Led a client-focused project encompassing research, web analysis, and social media investigation, including editing and news processing.
 - Optimized a new process with a team of nine to refine client’s web-based news platform.
 - Facilitated team functionality improvement through quality work, increased efficiency, and timely delivery.
@@ -59,7 +57,7 @@ Experienced Senior Analyst in various domains, currently in the pharmaceutical d
 - Discovered new sources to enhance news coverage in the Gulf Region.
 - Achieved client contract extension through successful project execution.
 
-### Content Research Analyst @ Euclid Infotech Pvt. Ltd., Jun 2009 – Mar 2016
+### Content Research Analyst at Euclid Infotech Pvt. Ltd., Jun 2009 – Mar 2016
 - Utilized unconventional methods such as Secondary, Web, and Social Media Research to source Govt Procurement information, bypassing traditional channels.
 - Built dashboards, market-based statistical reports and company or country profiles using MS Excel and PowerPoint for generating additional direct revenue for the company.
 - Identified and collaborated with software team to fix process and delivery issues which improved efficiency by 30%.
@@ -87,6 +85,3 @@ Experienced Senior Analyst in various domains, currently in the pharmaceutical d
 - English | Advanced | Speaking, Reading, Writing
 - Marathi | Intermediate | Speaking, Reading, Writing
 - Hindi | Intermediate | Speaking, Reading, Writing
-
-
-
