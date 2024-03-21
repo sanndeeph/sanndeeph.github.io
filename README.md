@@ -12,8 +12,5 @@ Experienced Senior Analyst in various domains, currently in the pharmaceutical d
 - Programming Language exposure – HTML, SQL, VBA, Python (Currently Learning)
 - Soft Skills – Strong Work Ethic, Good Communication Skills, Flexible / Adaptable, Collaborative
 
-## India - Rainfall
-https://sanndeeph.github.io/tableau_embed/
-
 
 
