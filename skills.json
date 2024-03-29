@@ -28,18 +28,6 @@
         "icon": "./assets/images/GA.png"
     },
     {
-        "name": "Adobe Analytics",
-        "icon": "./assets/images/AEM.png"
-    },
-    {
-        "name": "Alteryx",
-        "icon": "./assets/images/alteryx.png"
-    },
-    {
-        "name": "Datorama",
-        "icon": "./assets/images/datorama.png"
-    },
-    {
         "name": "Google Ads",
         "icon": "./assets/images/GAds.png"
     },
