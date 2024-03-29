@@ -321,6 +321,17 @@ header .navbar ul li a:hover {
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
+.social-icons a.xdotcom:hover {
+  background-color: #0e0e0e;
+}
+
+.social-icons a.tableau-public:hover {
+  background-color: #0d9dda;
+}
+
+.social-icons a.powerbi-public {
+  background-color: #f2c811;
+}
 /* social icons end */
 
 /* hero media queries starts*/
