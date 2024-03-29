@@ -270,6 +270,20 @@ header .navbar ul li a:hover {
 }
 .home .btn:hover i {
   transform: translateX(5px);
+.home .btn:nth-of-type(2),
+.home .btn:nth-of-type(3),
+.home .btn:nth-of-type(4) {
+  top: calc(100% + 2rem);
+  margin-top: 0;
+}
+.home .btn:nth-of-type(2) {
+  left: 25%;
+}
+.home .btn:nth-of-type(3) {
+  left: 50%;
+}
+.home .btn:nth-of-type(4) {
+  left: 75%;
 }
 /* social icons start */
 .socials {
