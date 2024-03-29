@@ -39,4 +39,8 @@
         "name": "Alteryx",
         "icon": "./assets/images/alteryx.png"
     }  
+     {
+        "name": "Datorama",
+        "icon": "./assets/images/datorama.png"
+    } 
 ]
