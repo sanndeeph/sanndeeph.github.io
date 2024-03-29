@@ -1,7 +1,7 @@
 [
     {
         "name": "Tableau",
-        "icon": "assets/images/tableau.png"
+        "icon": "./assets/images/tableau.png"
     },
     {
         "name": "PowerBI",
