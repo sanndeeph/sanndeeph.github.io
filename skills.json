@@ -5,118 +5,46 @@
     },
     {
         "name": "PowerBI",
-        "icon": "https://img.icons8.com/?size=256&id=qYfwpsRXEcpc&format=png"
+        "icon": "./assets/images/powerbi.png"
     },
     {
         "name": "Google-Looker",
-        "icon": "https://img.icons8.com/?size=256&id=SruJhzn0nnLl&format=png"
+        "icon": "./assets/images/glooker.png"
     },
     {
         "name": "SQL",
-        "icon": "https://img.icons8.com/?size=256&id=laYYF3dV0Iew&format=png"
+        "icon": "./assets/images/sql.png"
     },
     {
         "name": "PowerPoint",
-        "icon": "https://img.icons8.com/?size=256&id=117557&format=png"
+        "icon": "./assets/images/ppt.png"
     },
     {
         "name": "Python",
-        "icon": "https://img.icons8.com/?size=256&id=13441&format=png"
+        "icon": "./assets/images/python.png"
     },
     {
         "name": "Google Analytics",
-        "icon": "https://img.icons8.com/?size=256&id=fcKpGwAbxxfP&format=png"
+        "icon": "./assets/images/GA.png"
     },
     {
         "name": "Adobe Analytics",
-        "icon": "https://cdn.iconscout.com/icon/free/png-512/free-experience-manager-2521781-2132673.png?f=webp&w=256
+        "icon": "./assets/images/AEM.png"
     },
     {
         "name": "Alteryx",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/65/Alteryx_logo.png"
+        "icon": "./assets/images/alteryx.png"
     },
     {
         "name": "Datorama",
-        "icon": "https://logowik.com/content/uploads/images/datorama-salesforce1183.jpg"
+        "icon": "./assets/images/datorama.png"
     },
     {
         "name": "Google Ads",
-        "icon": "https://img.icons8.com/?size=256&id=ui4CTPMMDCFh&format=png"
+        "icon": "./assets/images/GAds.png"
     },
     {
         "name": "MS Excel",
-        "icon": "https://img.icons8.com/?size=256&id=117561&format=png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
-    },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-    },
-    {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
-    },
-    {
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
-    {
-        "name": "Heroku",
-        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
-    },
-    {
-        "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-    },
-    {
-        "name": "DigitalOcean",
-        "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
-    },
-    {
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    }    
+        "icon": "./assets/images/Excel.png"
+    }  
 ]
