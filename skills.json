@@ -42,5 +42,10 @@
      {
         "name": "Datorama",
         "icon": "./assets/images/datorama.png"
-    } 
+    },
+    
+     {
+        "name": "Datorama",
+        "icon": "./assets/images/AEM.png"
+    }
 ]
