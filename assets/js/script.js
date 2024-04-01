@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Data Analysis", "Tableau Dashboards Development", "PowerBI Dashboards Development", "SQL Query optimization", "Automated Reporting Development", "A/B Testing"],
+    strings: ["Business Intelligence (BI) and Analytics","Data Analysis", "Tableau Dashboards Development", "PowerBI Dashboards Development", "SQL Query optimization", "Automated Reporting Development", "A/B Testing"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
