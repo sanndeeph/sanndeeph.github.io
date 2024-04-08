@@ -137,7 +137,7 @@ header .navbar ul li a:hover {
   header .navbar {
     position: fixed;
     top: 6.5rem;
-    right: -120%;
+    right: -80%;
     width: 75%;
     height: 100%;
     text-align: left;
@@ -333,10 +333,7 @@ header .navbar ul li a:hover {
 }
 /* social icons end */
 
-.downloads {
-  position: relative;
-  margin-top: 12rem;
-.downloads .btn2 {
+.socials .btn2 {
   margin-top: 3rem;
   position: absolute;
   line-height: 0;
@@ -348,24 +345,24 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
-.downloads .btn2 span {
+.socials .btn2 span {
   font-weight: 700;
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
 }
-.downloads .btn2 i {
+.socials .btn2 i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.downloads .btn2:hover {
+.socials .btn2:hover {
   background: #1a047e;
 }
-.downloads .btn2:hover i {
+.socials .btn2:hover i {
   transform: translateX(5px);
 }
 
-  .downloads .btn3 {
+  .socials .btn3 {
   margin-top: 3rem;
   position: absolute;
   line-height: 0;
@@ -377,20 +374,20 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
-.downloads .btn3 span {
+.socials .btn3 span {
   font-weight: 700;
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
 }
-.downloads .btn3 i {
+.socials .btn3 i {
   margin-left: 0.6rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.downloads .btn3:hover {
+.socials .btn3:hover {
   background: #1a047e;
 }
-.downloads .btn3:hover i {
+.socials .btn3:hover i {
   transform: translateX(5px);
 }
 
