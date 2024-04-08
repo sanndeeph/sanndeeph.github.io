@@ -379,13 +379,12 @@ header .navbar ul li a:hover {
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
-.social-icons a.xdotcom:hover {
+.social-icons a.download:hover {
   background-color: #00aced;
 }
 .social-icons a.tableau-public:hover {
   background-color: #0d9dda;
 }
-
 .social-icons a.powerbi-public {
   background-color: #f2c811;
 }
