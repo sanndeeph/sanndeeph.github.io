@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Business Intelligence (BI) and Analytics","Data Analysis", "Tableau Dashboards Development", "PowerBI Dashboards Development", "SQL Query optimization", "Automated Reporting Development", "A/B Testing"],
+    strings: ["Data Analysis", "Tableau Dashboards Development", "PowerBI Dashboards Development", "SQL Query optimization", "Automated Reporting Development", "Business Intelligence (BI) and Analytics", "A/B Testing"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -215,6 +215,9 @@ const srtop = ScrollReveal({
 srtop.reveal('.home .content h3', { delay: 200 });
 srtop.reveal('.home .content p', { delay: 200 });
 srtop.reveal('.home .content .btn', { delay: 200 });
+srtop.reveal('.home .content .btn2', { delay: 200 });
+srtop.reveal('.home .content .btn3', { delay: 200 });
+
 
 srtop.reveal('.home .image', { delay: 400 });
 srtop.reveal('.home .linkedin', { interval: 600 });
@@ -223,6 +226,9 @@ srtop.reveal('.home .twitter', { interval: 1000 });
 srtop.reveal('.home .telegram', { interval: 600 });
 srtop.reveal('.home .instagram', { interval: 600 });
 srtop.reveal('.home .dev', { interval: 600 });
+srtop.reveal('.home .download', { interval: 600 });
+srtop.reveal('.home .tableau-public', { interval: 600 });
+srtop.reveal('.home .powerbi-public', { interval: 600 });
 
 /* SCROLL ABOUT */
 srtop.reveal('.about .content h3', { delay: 200 });
@@ -230,6 +236,7 @@ srtop.reveal('.about .content .tag', { delay: 200 });
 srtop.reveal('.about .content p', { delay: 200 });
 srtop.reveal('.about .content .box-container', { delay: 200 });
 srtop.reveal('.about .content .resumebtn', { delay: 200 });
+srtop.reveal('.about .content .resumebtn1', { delay: 200 });
 
 
 /* SCROLL SKILLS */
