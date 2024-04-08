@@ -319,8 +319,8 @@ header .navbar ul li a:hover {
   letter-spacing: 0.1rem;
 }
 .home .btn3 i {
-  margin-left: 4rem;
-  font-size: 1.5rem;
+  margin-left: 0.3rem;
+  font-size: 1.7rem;
   transition: 0.3s;
 }
 .home .btn3:hover {
