@@ -333,6 +333,37 @@ header .navbar ul li a:hover {
 }
 /* social icons end */
 
+.home .btn2 {
+  margin-top: 3rem;
+  position: absolute;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: 4em;
+  transition: 0.5s;
+  color: #fff;
+  background: #2506ad;
+  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+  font-family: "Nunito", sans-serif;
+}
+.home .btn2 span {
+  font-weight: 700;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+}
+.home .btn2 i {
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.home .btn2:hover {
+  background: #1a047e;
+}
+.home .btn2:hover i {
+  transform: translateX(5px);
+}
+
+/* resume btn ends */
+
 /* hero media queries starts*/
 @media (max-width: 450px) {
   .home .btn {
