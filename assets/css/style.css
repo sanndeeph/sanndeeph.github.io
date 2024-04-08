@@ -303,7 +303,7 @@ header .navbar ul li a:hover {
 
   .home .btn3 {
   margin-top: 3rem;
-  position: absolute;
+  position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
   border-radius: 4em;
