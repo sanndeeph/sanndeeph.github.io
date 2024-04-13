@@ -170,7 +170,7 @@ header .navbar ul li a:hover {
     border-bottom: 0.5rem solid #011aff;
   }
   .fa-times {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
   }
   header .navbar.nav-toggle {
     right: 0;
