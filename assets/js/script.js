@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Sandeep H";
+            document.title = "Portfolio | Sandeep";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Return to the website";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
