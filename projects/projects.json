@@ -1,8 +1,7 @@
 [
   {
     "name": "Monsoon Melodies: Exploring Indian Rainfall",
-    "desc": "Tableau Public Dashboard!
-              #jitterbarchart #spiralbarchart #VizOfTheDay #VizForSocialGood #DiversityInData #VizOfficeHours #TableauFF #Indiatableau #india #tableau #datavisualization #viz #indianrainfall #rains",
+    "desc": "Tableau Public Dashboard! #jitterbarchart #spiralbarchart #VizOfTheDay #VizForSocialGood #DiversityInData #VizOfficeHours #TableauFF #Indiatableau #india #tableau #datavisualization #viz #indianrainfall #rains",
     "image": "Dashboard1",
     "category": "Tableau",
     "links": {
@@ -16,7 +15,7 @@
     "image": "./assets/images/projects/Dashboard2.png",
     "category": "Tableau",
     "links": {
-      "view": "href="https://public.tableau.com/views/RiverCurrentsUnveiledASankeyJourney/Rivers?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
+      "view": "https://public.tableau.com/views/RiverCurrentsUnveiledASankeyJourney/Rivers?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
       "code": "https://github.com/sanndeeph/sanndeeph.github.io"
     }
   },
