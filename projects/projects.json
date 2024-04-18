@@ -12,7 +12,7 @@
   {
     "name": "India River Currents Unveiled: A Sankey Journey",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "./assets/images/projects/Dashboard2.png",
+    "image": "Dashboard2",
     "category": "Tableau",
     "links": {
       "view": "https://public.tableau.com/views/RiverCurrentsUnveiledASankeyJourney/Rivers?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
@@ -22,7 +22,7 @@
   {
     "name": "SuperStore - Sales Snapshot Dashboard",
     "desc": "SuperStore - Sales Snapshot Dashboard.",
-    "image": "./assets/images/projects/Dashboard3.png",
+    "image": "Dashboard3",
     "category": "PowerBI",
     "links": {
       "view": "./assets/images/projects/Dashboard3.png",
