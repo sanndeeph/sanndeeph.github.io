@@ -1,12 +1,12 @@
 [
   {
     "name": "Monsoon Melodies: Exploring Indian Rainfall",
-    "desc": "Tableau Public Dashboard! #jitterbarchart #spiralbarchart #VizOfTheDay #VizForSocialGood #VizOfficeHours #TableauFF #Indiatableau #india #tableau #datavisualization #viz",
+    "desc": "Tableau Public Dashboard! #jitterbarchart #spiralbarchart #VizOfTheDay #VizOfficeHours #tableau #datavisualization #viz",
     "image": "Dashboard1",
     "category": "Tableau",
     "links": {
-      "view": "https://public.tableau.com/views/TheIndianRainfall_17104510807460/Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
-      "code": "https://github.com/sanndeeph/sanndeeph.github.io"
+      "view": "./assets/images/projects/Dashboard1.png",
+      "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/TheIndianRainfall_17104510807460/Dashboard"
     }
   },
   {
@@ -15,8 +15,8 @@
     "image": "Dashboard2",
     "category": "Tableau",
     "links": {
-      "view": "https://public.tableau.com/views/RiverCurrentsUnveiledASankeyJourney/Rivers?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
-      "code": "https://github.com/sanndeeph/sanndeeph.github.io"
+      "view": "./assets/images/projects/Dashboard2.png",
+      "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/RiverCurrentsUnveiledASankeyJourney/Rivers"
     }
   },
   {
@@ -26,7 +26,16 @@
     "category": "PowerBI",
     "links": {
       "view": "./assets/images/projects/Dashboard3.png",
-      "code": "https://drive.google.com/file/d/1lPA1R1XbmqjrqfnofX6p4eP7u9u-_NF9/view"
+      "Public Dashboard": "https://drive.google.com/file/d/1lPA1R1XbmqjrqfnofX6p4eP7u9u-_NF9/view"
     }
-  }
+  },
+   {
+    "name": "HR Attrition Dashboard",
+    "desc": "Dynamic HR Attrition Dashboard",
+    "image": "Dashboard4",
+    "category": "Tableau",
+    "links": {
+      "view": "./assets/images/projects/Dashboard4.png",
+      "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/HRAttritionDashboard_17138980302280/HRDashboard"
+    }
 ]
