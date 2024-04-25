@@ -5,7 +5,7 @@
     "image": "Dashboard4",
     "category": "Tableau",
     "links": {
-      "view": "./assets/images/projects/Dashboard4.png",
+      "view": "Dashboard4",
       "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/HRAttritionDashboard_17138980302280/HRDashboard"
     }
     },
