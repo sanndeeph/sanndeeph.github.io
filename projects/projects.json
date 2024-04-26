@@ -16,7 +16,7 @@
     "image": "Dashboard3",
     "category": "PowerBI",
     "links": {
-      "view": "./assets/images/projects/Dashboard3.png",
+      "view": "/assets/images/projects/Dashboard3.png",
       "Public Dashboard": "https://drive.google.com/file/d/1lPA1R1XbmqjrqfnofX6p4eP7u9u-_NF9/view"
     }
   },
@@ -27,7 +27,7 @@
     "image": "Dashboard2",
     "category": "Tableau",
     "links": {
-      "view": "./assets/images/projects/Dashboard2.png",
+      "view": "/assets/images/projects/Dashboard2.png",
       "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/RiverCurrentsUnveiledASankeyJourney/Rivers"
     }
   },
@@ -38,7 +38,7 @@
     "image": "Dashboard1",
     "category": "Tableau",
     "links": {
-      "view": "./assets/images/projects/Dashboard1.png",
+      "view": "/assets/images/projects/Dashboard1.png",
       "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/TheIndianRainfall_17104510807460/Dashboard"
     }
   }
