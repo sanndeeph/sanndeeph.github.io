@@ -6,7 +6,7 @@
     "category": "Tableau",
     "links": {
       "view": "/assets/images/projects/Dashboard4.png",
-      "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/HRAttritionDashboard_17138980302280/HRDashboard"
+      "Public Viz": "https://public.tableau.com/app/profile/sandeep.h/viz/HRAttritionDashboard_17138980302280/HRDashboard"
     }
     },
  
@@ -17,7 +17,7 @@
     "category": "PowerBI",
     "links": {
       "view": "/assets/images/projects/Dashboard3.png",
-      "Public Dashboard": "https://drive.google.com/file/d/1lPA1R1XbmqjrqfnofX6p4eP7u9u-_NF9/view"
+      "Public Viz": "https://drive.google.com/file/d/1lPA1R1XbmqjrqfnofX6p4eP7u9u-_NF9/view"
     }
   },
 
@@ -28,7 +28,7 @@
     "category": "Tableau",
     "links": {
       "view": "/assets/images/projects/Dashboard2.png",
-      "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/RiverCurrentsUnveiledASankeyJourney/Rivers"
+      "Public Viz": "https://public.tableau.com/app/profile/sandeep.h/viz/RiverCurrentsUnveiledASankeyJourney/Rivers"
     }
   },
   
@@ -39,7 +39,7 @@
     "category": "Tableau",
     "links": {
       "view": "/assets/images/projects/Dashboard1.png",
-      "Public Dashboard": "https://public.tableau.com/app/profile/sandeep.h/viz/TheIndianRainfall_17104510807460/Dashboard"
+      "Public Viz": "https://public.tableau.com/app/profile/sandeep.h/viz/TheIndianRainfall_17104510807460/Dashboard"
     }
   }
 ]
