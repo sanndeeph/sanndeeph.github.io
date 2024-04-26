@@ -47,5 +47,40 @@
      {
         "name": "AEM",
         "icon": "./assets/images/AEM.png"
-    }
+    },
+
+    {
+        "name": "Google BigQuery",
+        "icon": "./assets/images/bigquery.png"
+    },
+
+    {
+        "name": "DOMO",
+        "icon": "./assets/images/DOMO.png"
+    },
+
+     {
+        "name": "HTML5",
+        "icon": "./assets/images/html5.png"
+    },
+
+    {
+        "name": "Qlikview",
+        "icon": "./assets/images/qlikview.png"
+    },
+
+    {
+        "name": "R",
+        "icon": "./assets/images/Rlogo.png"
+    },
+
+    {
+        "name": "SSIS",
+        "icon": "./assets/images/SSIS.png"
+    },
+
+     {
+        "name": "Snowflake",
+        "icon": "./assets/images/snowflake.png"
+    },
 ]
