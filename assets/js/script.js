@@ -119,7 +119,7 @@ function showProjects(projects) {
           <p>${project.desc}</p>
           <div class="btns">
             <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.Public Dash}" class="btn" target="_blank"><i class="fas fa-chart-bar"></i> Public Dash</a>
+            <a href="${project.links.Viz}" class="btn" target="_blank"><i class="fas fa-chart-bar"></i> Viz</a>
           </div>
         </div>
       </div>
