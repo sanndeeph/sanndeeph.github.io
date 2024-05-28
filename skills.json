@@ -82,5 +82,9 @@
      {
         "name": "Snowflake",
         "icon": "./assets/images/snowflake.png"
+    },
+    {
+        "name": "Google Cloud",
+        "icon": "./assets/images/googlecloud.png"
     }
 ]
