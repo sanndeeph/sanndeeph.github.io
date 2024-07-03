@@ -23,6 +23,10 @@
         "name": "Datorama",
         "icon": "./assets/images/datorama.png"
     },
+    {
+        "name": "PIWIK",
+        "icon": "./assets/images/piwik.png"
+    },
      {
         "name": "GoogleAnalytics",
         "icon": "./assets/images/GA.png"
@@ -72,15 +76,15 @@
         "icon": "./assets/images/ppt.png"
     },
     {
-        "name": "HTML5",
-        "icon": "./assets/images/html5.png"
-    },
-    {
         "name": "Hotjar",
         "icon": "./assets/images/Hotjar.png"
     },
      {
         "name": "Google Ads",
         "icon": "./assets/images/GAds.png"
+    }
+    {
+        "name": "HTML5",
+        "icon": "./assets/images/html5.png"
     }
 ]
