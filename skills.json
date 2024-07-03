@@ -28,6 +28,10 @@
         "icon": "./assets/images/piwik.png"
     },
      {
+        "name": "ThoughtSpot",
+        "icon": "./assets/images/thoughtspot.png"
+    },
+     {
         "name": "GoogleAnalytics",
         "icon": "./assets/images/GA.png"
     },
