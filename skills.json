@@ -12,73 +12,41 @@
         "icon": "./assets/images/glooker.png"
     },
     {
-        "name": "SQL",
-        "icon": "./assets/images/sql.png"
-    },
-    {
-        "name": "PowerPoint",
-        "icon": "./assets/images/ppt.png"
-    },
-    {
-        "name": "Python",
-        "icon": "./assets/images/python.png"
-    },
-    {
-        "name": "GoogleAnalytics",
-        "icon": "./assets/images/GA.png"
-    },
-    {
-        "name": "Google Ads",
-        "icon": "./assets/images/GAds.png"
-    },
-    {
-        "name": "MS Excel",
-        "icon": "./assets/images/excel.png"
-    },
-    {
-        "name": "Alteryx",
-        "icon": "./assets/images/alteryx.png"
+        "name": "DOMO",
+        "icon": "./assets/images/DOMO.png"
     },
      {
+        "name": "Qlikview",
+        "icon": "./assets/images/qlikview.png"
+    },
+    {
         "name": "Datorama",
         "icon": "./assets/images/datorama.png"
     },
-    
+     {
+        "name": "GoogleAnalytics",
+        "icon": "./assets/images/GA.png"
+    },
      {
         "name": "AEM",
         "icon": "./assets/images/AEM.png"
     },
-
     {
         "name": "Big Query",
         "icon": "./assets/images/bigquery.png"
     },
-
-    {
-        "name": "DOMO",
-        "icon": "./assets/images/DOMO.png"
-    },
-
      {
-        "name": "HTML5",
-        "icon": "./assets/images/html5.png"
+        "name": "Alteryx",
+        "icon": "./assets/images/alteryx.png"
     },
-
     {
-        "name": "Qlikview",
-        "icon": "./assets/images/qlikview.png"
+        "name": "SQL",
+        "icon": "./assets/images/sql.png"
     },
-
-    {
-        "name": "R",
-        "icon": "./assets/images/Rlogo.png"
-    },
-
-    {
+     {
         "name": "SSIS",
         "icon": "./assets/images/SSIS.png"
     },
-
      {
         "name": "Snowflake",
         "icon": "./assets/images/snowflake.png"
@@ -88,7 +56,31 @@
         "icon": "./assets/images/googlecloud.png"
     },
     {
+        "name": "Python",
+        "icon": "./assets/images/python.png"
+    },
+     {
+        "name": "R",
+        "icon": "./assets/images/Rlogo.png"
+    },   
+    {
+        "name": "MS Excel",
+        "icon": "./assets/images/excel.png"
+    },
+    {
+        "name": "PowerPoint",
+        "icon": "./assets/images/ppt.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "./assets/images/html5.png"
+    },
+    {
         "name": "Hotjar",
         "icon": "./assets/images/Hotjar.png"
+    },
+     {
+        "name": "Google Ads",
+        "icon": "./assets/images/GAds.png"
     }
 ]
