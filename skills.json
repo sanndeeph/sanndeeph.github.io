@@ -90,5 +90,9 @@
     {
         "name": "HTML5",
         "icon": "./assets/images/html5.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "./assets/images/airtable.png"
     }
 ]
