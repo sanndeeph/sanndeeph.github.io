@@ -1,5 +1,17 @@
 [
   {
+    "name": "South Asian Seismic Activities",
+    "desc": "South Asian Seismic Activities",
+    "image": "Dashboard5",
+    "category": "Tableau",
+    "links": {
+      "view": "/assets/images/projects/Dashboard4.png",
+      "PublicViz": "https://public.tableau.com/app/profile/sandeep.h/viz/SouthAsiaEarthquakes/Dashboard"
+    }
+    },
+  
+  
+  {
     "name": "HR Attrition Dashboard",
     "desc": "HR Attrition Dashboard",
     "image": "Dashboard4",
