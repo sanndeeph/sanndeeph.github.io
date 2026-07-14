@@ -1,4 +1,16 @@
 [
+ {
+    "name": "The Growth of UPI in India",
+    "desc": "The Growth of UPI in India",
+    "image": "Dashboard6",
+    "category": "Tableau",
+    "links": {
+      "view": "/assets/images/projects/Dashboard6.png",
+      "PublicViz": "https://public.tableau.com/app/profile/sandeep.h/viz/TheGrowthofUPIinIndia/Main"
+    }
+    },
+  
+  
   {
     "name": "South Asian Seismic Activities",
     "desc": "South Asian Seismic Activities.",
