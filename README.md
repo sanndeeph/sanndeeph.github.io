@@ -1,8 +1,8 @@
+![](https://komarev.com/ghpvc/?username=sanndeeph)
 ## Portfolio-Website
 Portfolio website built using HTML5, CSS3, JavaScript and jQuery.
-
-![](https://komarev.com/ghpvc/?username=sanndeeph)
-
+Visit the website 
+[![JS](https://github.com/sanndeeph/sanndeeph.github.io/)]
 
 ## 📌 Tech Stack
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/sanndeeph/sanndeeph.github.io/search?l=html)&nbsp;
