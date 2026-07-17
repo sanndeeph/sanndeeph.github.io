@@ -5,7 +5,7 @@ Portfolio website built using HTML5, CSS3, JavaScript and jQuery.
 <no-prerender>
 <p align="center">
   <a href="https://sanndeeph.github.io/">
-    <img src="https://img.shields.io/badge/View Website-23F7DF1E" alt="View Website">
+    <img src="https://img.shields.io/badge/View Website-%23F7DF1E" alt="View Website">
   </a>
 </p>
 </no-prerender>
