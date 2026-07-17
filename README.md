@@ -1,7 +1,7 @@
 ## Portfolio-Website
 Portfolio website built using HTML5, CSS3, JavaScript and jQuery.
 
-![](https://komarev.com/ghpvc/?sanndeeph.github.io)
+![](https://komarev.com/ghpvc/?username=https://sanndeeph.github.io)
 
 
 ## 📌 Tech Stack
