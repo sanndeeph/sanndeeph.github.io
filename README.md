@@ -3,6 +3,7 @@
 Portfolio website built using HTML5, CSS3, JavaScript and jQuery.
 Visit the website 
 ![](https://github.com/sanndeeph/sanndeeph.github.io/)
+[![View Website](https://shields.io)](https://github.com/sanndeeph/sanndeeph.github.io/)
 
 ## 📌 Tech Stack
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/sanndeeph/sanndeeph.github.io/search?l=html)&nbsp;
