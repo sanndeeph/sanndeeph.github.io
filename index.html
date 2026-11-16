@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sandeep Hirnaik – Tableau, Power BI, Analytics, Healthcare and Pharma, 8.6+ years Analytics experience.">
+  <title> Sandeep H | Sr BI Analyst </title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #0a2342; --navy2: #12335c; --navy3: #1a4a7e;
+      --blue: #1a73e8; --blue2: #1558b0;
+      --text: #1a1a2e; --sub: #5a6475; --light: #f8faff;
+      --border: #e2e8f0; --white: #ffffff;
+      --green: #10b981; --amber: #f59e0b;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--white); color: var(--text); font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-thumb { background: var(--blue); border-radius: 3px; }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; width: 100%; z-index: 100;
+      background: rgba(255,255,255,.92); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 3rem; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo-text { font-weight: 800; font-size: 1.2rem; color: var(--navy); letter-spacing: -.5px; }
+    .logo-dot { color: var(--blue); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: var(--sub); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover { color: var(--navy); }
+    .nav-hire {
+      background: var(--navy); color: #fff; padding: 9px 22px; border-radius: 8px;
+      text-decoration: none; font-weight: 600; font-size: .875rem;
+      transition: background .2s, transform .2s;
+    }
+    .nav-hire:hover { background: var(--navy2); transform: translateY(-1px); }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr;
+      align-items: center; gap: 4rem;
+      padding: 8rem 5rem 5rem; background: var(--light);
+      position: relative; overflow: hidden;
+    }
+    #hero::before {
+      content: ''; position: absolute; right: -100px; top: -100px;
+      width: 600px; height: 600px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(26,115,232,.08) 0%, transparent 70%);
+    }
+    #hero::after {
+      content: ''; position: absolute; left: -50px; bottom: -50px;
+      width: 350px; height: 350px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(10,35,66,.05) 0%, transparent 70%);
+    }
+    .hero-left { position: relative; z-index: 1; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: rgba(26,115,232,.08); border: 1px solid rgba(26,115,232,.2);
+      color: var(--blue); padding: 5px 14px; border-radius: 50px;
+      font-size: .78rem; font-weight: 600; margin-bottom: 1.5rem;
+    }
+    .h-name {
+      font-family: 'Playfair Display', serif; font-size: clamp(2.8rem, 5vw, 4rem);
+      font-weight: 800; line-height: 1.1; color: var(--navy); margin-bottom: .75rem;
+    }
+    .h-name em { color: var(--blue); font-style: normal; }
+    .h-role { font-size: 1.1rem; font-weight: 600; color: var(--sub); margin-bottom: 1.5rem; }
+    .h-desc { font-size: 1rem; color: var(--sub); line-height: 1.8; margin-bottom: 2.5rem; max-width: 520px; }
+    .h-btns { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
+    .h-btn-prim {
+      background: var(--navy); color: #fff; padding: 13px 28px; border-radius: 8px;
+      text-decoration: none; font-weight: 700; font-size: .95rem;
+      transition: background .2s, transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 16px rgba(10,35,66,.25);
+    }
+    .h-btn-prim:hover { background: var(--navy2); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(10,35,66,.3); }
+    .h-btn-sec {
+      background: #fff; border: 2px solid var(--border); color: var(--navy); padding: 11px 28px; border-radius: 8px;
+      text-decoration: none; font-weight: 600; font-size: .95rem;
+      transition: border-color .2s, transform .2s;
+    }
+    .h-btn-sec:hover { border-color: var(--navy); transform: translateY(-2px); }
+    .h-info { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .h-info-item { display: flex; align-items: center; gap: .5rem; }
+    .h-info-icon { width: 32px; height: 32px; border-radius: 8px; background: rgba(26,115,232,.1); display: flex; align-items: center; justify-content: center; font-size: .9rem; }
+    .h-info-text { font-size: .8rem; color: var(--sub); font-weight: 500; }
+    .hero-right { position: relative; z-index: 1; }
+    .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    .kpi {
+      background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 1.75rem;
+      box-shadow: 0 2px 12px rgba(10,35,66,.06); transition: transform .2s, box-shadow .2s;
+    }
+    .kpi:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(10,35,66,.1); }
+    .kpi:first-child { background: var(--navy); border-color: var(--navy); }
+    .kpi:first-child .kpi-num, .kpi:first-child .kpi-lbl, .kpi:first-child .kpi-icon { color: #fff; }
+    .kpi-icon { font-size: 1.5rem; margin-bottom: .75rem; }
+    .kpi-num { font-size: 2.4rem; font-weight: 900; color: var(--navy); line-height: 1; margin-bottom: .25rem; }
+    .kpi-lbl { font-size: .8rem; color: var(--sub); font-weight: 500; }
+
+    /* ── SECTION ── */
+    .sw { padding: 5.5rem 5rem; max-width: 1200px; margin: 0 auto; }
+    .sh { margin-bottom: 3rem; }
+    .sh-tag { display: inline-block; background: rgba(26,115,232,.08); border: 1px solid rgba(26,115,232,.2); color: var(--blue); padding: 3px 12px; border-radius: 50px; font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: .75rem; }
+    .sh-title { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 800; color: var(--navy); margin-bottom: .5rem; }
+    .sh-sub { color: var(--sub); font-size: .95rem; max-width: 480px; line-height: 1.7; }
+    .divider { width: 48px; height: 3px; background: linear-gradient(90deg, var(--blue), var(--navy)); border-radius: 2px; margin-top: .75rem; }
+
+    /* ── AOS ── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.show { opacity: 1; transform: none; }
+
+    /* ── SKILLS (two-column table-like) ── */
+    .skills-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+    .skill-cat-title { font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--blue); margin-bottom: 1rem; }
+    .skill-list { display: flex; flex-direction: column; gap: .6rem; }
+    .sk-row { display: flex; justify-content: space-between; align-items: center; padding: .75rem 1rem; background: var(--light); border-radius: 8px; border: 1px solid var(--border); }
+    .sk-name { font-size: .9rem; font-weight: 600; color: var(--navy); }
+    .sk-level { font-size: .75rem; font-weight: 600; padding: 2px 10px; border-radius: 50px; }
+    .sk-level.expert { background: rgba(16,185,129,.1); color: var(--green); }
+    .sk-level.adv { background: rgba(26,115,232,.1); color: var(--blue); }
+    .sk-level.prof { background: rgba(6, 182, 212, 0.1); color: var(--cyan); }
+    .sk-level.inter { background: rgba(168,85,247,.1); color: var(--purple); }
+    .sk-level.beg { background: rgba(107,114,128,.1); color: var(--gray); }
+
+    /* ── EXPERIENCE ── */
+    .xp-cards { display: flex; flex-direction: column; gap: 1.5rem; }
+    .xp {
+      background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 2rem;
+      box-shadow: 0 2px 12px rgba(10,35,66,.05);
+      display: grid; grid-template-columns: auto 1fr; gap: 0 1.75rem;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .xp:hover { box-shadow: 0 6px 24px rgba(10,35,66,.1); transform: translateY(-2px); }
+    .xp-left { display: flex; flex-direction: column; align-items: center; gap: 0; }
+    .xp-logo-box { width: 48px; height: 48px; border-radius: 12px; background: var(--light); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }
+    .xp-connector { width: 1px; flex: 1; background: var(--border); margin: 4px 0; min-height: 20px; }
+    .xp-right {}
+    .xp-meta { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: .5rem; margin-bottom: .75rem; }
+    .xp-role { font-size: 1.05rem; font-weight: 700; color: var(--navy); }
+    .xp-co { font-size: .9rem; color: var(--blue); font-weight: 600; margin-top: 2px; }
+    .xp-badge { background: rgba(16,185,129,.08); border: 1px solid rgba(16,185,129,.2); color: var(--green); padding: 3px 12px; border-radius: 50px; font-size: .75rem; font-weight: 600; white-space: nowrap; }
+    .xp-period-text { font-size: .8rem; color: var(--sub); margin-bottom: 1rem; }
+    .xp-bul { list-style: none; }
+    .xp-bul li { font-size: .875rem; color: var(--sub); line-height: 1.7; padding-left: 1.5rem; position: relative; margin-bottom: .4rem; }
+    .xp-bul li::before { content: ''; position: absolute; left: 6px; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: var(--blue); }
+    .xp-bul strong { color: var(--navy); font-weight: 600; }
+    .xp-chip-row { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: 1rem; }
+    .xp-chip { background: rgba(26,115,232,.07); border: 1px solid rgba(26,115,232,.15); color: var(--blue2); padding: 2px 10px; border-radius: 4px; font-size: .72rem; font-weight: 600; }
+
+    /* ── PROJECTS ── */
+   /* .pj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .pj-card {
+      background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 1.75rem;
+      box-shadow: 0 2px 12px rgba(10,35,66,.05); display: flex; flex-direction: column; gap: .9rem;
+      transition: transform .25s, box-shadow .25s, border-color .25s;
+    }
+    .pj-card:hover { transform: translateY(-5px); box-shadow: 0 10px 32px rgba(10,35,66,.12); border-color: var(--blue); }
+    .pj-hd { display: flex; justify-content: space-between; align-items: flex-start; }
+    .pj-emoji { font-size: 1.75rem; }
+    .pj-cat { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--sub); background: var(--light); border: 1px solid var(--border); padding: 2px 10px; border-radius: 50px; }
+    .pj-title { font-size: 1rem; font-weight: 700; color: var(--navy); }
+    .pj-body { font-size: .875rem; color: var(--sub); line-height: 1.65; flex: 1; }
+    .pj-highlight { background: rgba(16,185,129,.06); border-left: 3px solid var(--green); padding: 8px 12px; font-size: .8rem; color: var(--text); border-radius: 0 6px 6px 0; font-weight: 500; }
+    .pj-tags { display: flex; flex-wrap: wrap; gap: .4rem; }
+    .pj-t { background: rgba(26,115,232,.07); border: 1px solid rgba(26,115,232,.15); color: var(--blue2); padding: 2px 10px; border-radius: 4px; font-size: .72rem; font-weight: 600; }
+*/
+
+    /* --- Projects Section Design - Interactive Case-Study Drawer / Split Preview Styles --- */
+   .split-projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2.5rem;
+    align-items: start;
+    background: var(--bg-card, #ffffff);
+    border: 1px solid var(--border-color, #eaeaea);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  }
+
+  .split-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .split-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: transparent;
+    transition: all 0.25s ease;
+    text-align: left;
+    width: 100%;
+  }
+
+  .split-item:hover {
+    background: #f8f9fa;
+    border-color: #e9ecef;
+  }
+
+  .split-item.active {
+    background: #f1f3f5;
+    border-color: #cbd5e1;
+  }
+
+  .split-item-num {
+    font-family: monospace;
+    font-size: 0.85rem;
+    color: #64748b;
+    font-weight: 600;
+  }
+
+  .split-item-info h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary, #111);
+    margin: 0 0 0.2rem 0;
+  }
+
+  .split-item-info span {
+    font-size: 0.75rem;
+    color: var(--text-secondary, #64748b);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .split-stage {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    position: sticky;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .stage-browser {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+  }
+
+  .stage-browser-bar {
+    background: #f1f5f9;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .browser-dots {
+    display: flex;
+    gap: 6px;
+  }
+
+  .browser-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-red { background: #ff5f56; }
+  .dot-yellow { background: #ffbd2e; }
+  .dot-green { background: #27c93f; }
+
+  .browser-url {
+    font-size: 0.7rem;
+    color: #64748b;
+    font-family: monospace;
+  }
+
+  /* Option 3: Scrollable Full-Page Screenshot Container */
+  .stage-image-wrap {
+    width: 100%;
+    height: 320px;
+    overflow-y: auto;
+    position: relative;
+    background: #f1f5f9;
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 #f1f5f9;
+  }
+
+  .stage-image-wrap::-webkit-scrollbar {
+    width: 6px;
+  }
+  .stage-image-wrap::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  .stage-image-wrap::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+
+  .stage-image-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .stage-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .stage-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary, #111);
+    margin: 0;
+  }
+
+  .stage-body {
+    font-size: 0.85rem;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .stage-highlight {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--blue, #0070f3);
+  }
+
+  .stage-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 0.25rem;
+  }
+
+  .stage-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .stage-tag {
+    font-size: 0.7rem;
+    background: #e2e8f0;
+    color: #334155;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+  }
+
+  .stage-links {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .split-projects-wrapper {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+    }
+    .split-stage {
+      position: static;
+    }
+  }
+
+          
+    /* ── AWARDS ── */
+    .aw-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
+    .aw-c {
+      background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem;
+      display: flex; gap: 1.25rem; align-items: flex-start;
+      box-shadow: 0 2px 12px rgba(10,35,66,.05);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .aw-c:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(10,35,66,.1); }
+    .aw-icon-box { width: 48px; height: 48px; border-radius: 12px; background: rgba(245,158,11,.1); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; flex-shrink: 0; }
+    .aw-c-title { font-size: .95rem; font-weight: 700; color: var(--navy); margin-bottom: .25rem; }
+    .aw-c-org { font-size: .8rem; color: var(--blue); font-weight: 600; margin-bottom: .5rem; }
+    .aw-c-desc { font-size: .8rem; color: var(--sub); line-height: 1.6; }
+
+    /* ── CONTACT STRIP ── */
+    .contact-strip {
+      background: var(--navy); color: #fff;
+      padding: 5rem; text-align: center;
+    }
+    .cs-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem,4vw,3rem); font-weight: 800; margin-bottom: 1rem; }
+    .cs-sub { color: rgba(255,255,255,.65); font-size: 1rem; line-height: 1.8; max-width: 480px; margin: 0 auto 2.5rem; }
+    .cs-email { display: inline-block; background: #fff; color: var(--navy); padding: 14px 36px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1rem; transition: background .2s, transform .2s; margin-bottom: 2.5rem; }
+    .cs-email:hover { background: var(--light); transform: translateY(-2px); }
+    .cs-socials { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+    .cs-soc { display: flex; align-items: center; gap: .5rem; color: rgba(255,255,255,.7); text-decoration: none; font-size: .875rem; font-weight: 500; padding: 9px 20px; border: 1px solid rgba(255,255,255,.2); border-radius: 8px; transition: border-color .2s, color .2s; }
+    .cs-soc:hover { border-color: rgba(255,255,255,.6); color: #fff; }
+
+    footer { background: var(--navy2); color: rgba(255,255,255,.5); text-align: center; padding: 1.5rem; font-size: .78rem; }
+
+    @media (max-width: 900px) {
+      #hero { grid-template-columns: 1fr; padding: 7rem 2rem 4rem; }
+      .hero-right { display: none; }
+      .sw { padding: 3.5rem 1.5rem; }
+      .skills-2col { grid-template-columns: 1fr; }
+      .xp { grid-template-columns: 1fr; }
+      .xp-connector { display: none; }
+      .nav-links { display: none; }
+      nav { padding: 0 1.5rem; }
+      .contact-strip { padding: 4rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo-text">SAN<span class="logo-dot">.</span></div>
+  <ul class="nav-links">
+    <li><a href="#hero">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="mailto:sanndeeph@gmail.com" class="nav-hire">Hire Me →</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-left">
+    <div class="hero-badge">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="#10b981"><circle cx="6" cy="6" r="4"/></svg>
+      Available for new roles
+    </div>
+    <h1 class="h-name">Sandeep<br><em>Hirnaik</em></h1>
+    <p class="h-role">Senior Data Analyst &nbsp;·&nbsp; BI & Digital Analytics · US Pharma & Healthcare </p>
+    <p class="h-desc">8.6+ years BI Experience.</p>
+    <div class="h-btns">
+      <a href="#projects" class="h-btn-prim">View Projects</a>
+      <a href="#contact" class="h-btn-sec">Contact Me</a>
+      <a href="https://drive.google.com/file/d/1VSBBRUUFJTOu0hHMnznvDyz5jnfc4WJ2/view?usp=sharing" class="h-btn-sec">Resume</a>
+    </div>
+    <div class="h-info">
+      <div class="h-info-item"><div class="h-info-icon">📍</div><div class="h-info-text">Thane, Maharashtra, India</div></div>
+      <div class="h-info-item"><div class="h-info-icon">💼</div><div class="h-info-text">EIPL</div></div>
+      <div class="h-info-item"><div class="h-info-icon">🎓</div><div class="h-info-text">PG Diploma IT</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="kpi-grid">
+      <div class="kpi">
+        <div class="kpi-icon" style="color:#fff">⚡</div>
+        <div class="kpi-num">8.6+</div>
+        <div class="kpi-lbl">Years Experience</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">🧩</div>
+        <div class="kpi-num">50+</div>
+        <div class="kpi-lbl">Dashboard / KPI Scorecards Built</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">🚀</div>
+        <div class="kpi-num">35%</div>
+        <div class="kpi-lbl">Performance Gain</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-icon">🏆</div>
+        <div class="kpi-num">3×</div>
+        <div class="kpi-lbl">Highest Award</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<div class="sw reveal" id="skills">
+  <div class="sh">
+    <span class="sh-tag">Technical Skills</span>
+    <h2 class="sh-title">What I bring to the table</h2>
+    <p class="sh-sub">8.6+ years of expertise designing enterprise dashboards, modernizing BI platforms, and
+automating ETL workflows</p>
+    <div class="divider"></div>
+  </div>
+  <div class="skills-2col">
+    <div>
+      <div class="skill-cat-title">BI Tools & Visualization</div>
+      <div class="skill-list">
+        <div class="sk-row"><span class="sk-name">Tableau</span><span class="sk-level adv">Advanced</span></div>
+        <div class="sk-row"><span class="sk-name">Power BI</span><span class="sk-level adv">Advanced</span></div>
+        <div class="sk-row"><span class="sk-name">DAX</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Data Studio(Looker Studio)</span><span class="sk-level adv">Advanced</span></div>
+        <div class="sk-row"><span class="sk-name">Qlik Sense</span><span class="sk-level beg">Beginner</span></div>
+        <div class="sk-row"><span class="sk-name">Executive Dashboards</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">KPI Scorecards</span><span class="sk-level prof">Proficient</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="skill-cat-title">Digital & CRM Analytics</div>
+      <div class="skill-list">
+        <div class="sk-row"><span class="sk-name">GA Universal / GA4</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Adobe Analytics</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Google Ads</span><span class="sk-level inter">Intermediate</span></div>
+        <div class="sk-row"><span class="sk-name">AEM</span><span class="sk-level inter">Intermediate</span></div>
+        <div class="sk-row"><span class="sk-name">Veeva CRM</span><span class="sk-level inter">Intermediate</span></div>
+        <div class="sk-row"><span class="sk-name">DCM</span><span class="sk-level inter">Intermediate</span></div>
+        <div class="sk-row"><span class="sk-name">Crossix</span><span class="sk-level inter">Intermediate</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <div class="skill-cat-title">Data Prep & Workflow Automation</div>
+      <div class="skill-list">
+        <div class="sk-row"><span class="sk-name">Snowflake</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Alteryx</span><span class="sk-level adv">Advanced</span></div>
+        <div class="sk-row"><span class="sk-name">Tableau Prep</span><span class="sk-level adv">Advanced</span></div>
+        <div class="sk-row"><span class="sk-name">Power Query</span><span class="sk-level adv">Advanced</span></div>
+        <div class="sk-row"><span class="sk-name">SSIS</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">ETL</span><span class="sk-level prof">Proficient</span></div>
+      </div>
+    </div>
+   <div>
+      <div class="skill-cat-title">Consumer & Marketing Analytics</div>
+      <div class="skill-list">
+        <div class="sk-row"><span class="sk-name">Consumer Journey Analysis</span><span class="sk-level adv">Advanced</span></div>
+        <div class="sk-row"><span class="sk-name">Audience Segmentation</span><span class="sk-level adv">Advanced</span></div>
+        <div class="sk-row"><span class="sk-name">Marketing ROI</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">A/B Testing</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Campaign Analysis</span><span class="sk-level inter">Intermediate</span></div>
+        <div class="sk-row"><span class="sk-name">Performance Analytics</span><span class="sk-level prof">Proficient</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="skill-cat-title">Data Analysis & Querying</div>
+      <div class="skill-list">
+        <div class="sk-row"><span class="sk-name">SQL (Snowflake & SQL Server)</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Data Extraction & Transformation</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Data Validation</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Performance Analysis</span><span class="sk-level prof">Proficient</span></div>
+        <div class="sk-row"><span class="sk-name">Dataset Optimization</span><span class="sk-level prof">Proficient</span></div>
+      </div>
+    </div>
+     <div>
+      <div class="skill-cat-title">AI & Collaboration</div>
+      <div class="skill-list">
+        <div class="sk-row"><span class="sk-name">Microsoft Copilot Studio</span><span class="sk-level inter">Intermediate</span></div>
+        <div class="sk-row"><span class="sk-name">AI Agent Development</span><span class="sk-level inter">Intermediate</span></div>
+        <div class="sk-row"><span class="sk-name">Tableau Server Administration</span><span class="sk-level inter">Intermediate</span></div>
+        <div class="sk-row"><span class="sk-name">Stakeholder Management</span><span class="sk-level inter">Intermediate</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- EXPERIENCE -->
+<div style="background: var(--light)">
+  <div class="sw reveal" id="experience">
+    <div class="sh">
+      <span class="sh-tag">Work Experience</span>
+      <h2 class="sh-title">Career journey</h2>
+      <p class="sh-sub">Evolving through diverse roles, turning experience into expertise and data into impact.</p>
+      <div class="divider"></div>
+    </div>
+    <div class="xp-cards">
+      <div class="xp reveal">
+        <div class="xp-left">
+          <div class="xp-logo-box">🏢</div>
+          <div class="xp-connector"></div>
+        </div>
+        <div class="xp-right">
+          <div class="xp-meta">
+            <div><div class="xp-role">Senior Analyst - Data & Analytics</div><div class="xp-co">EIPL</div></div>
+            <span class="xp-badge">Current · 3.7 years</span>
+          </div>
+          <div class="xp-period-text">Feb 2023 – Present &nbsp;·&nbsp; Full-time &nbsp;·&nbsp; Mumbai, MH, India</div>
+          <ul class="xp-bul">
+<li>Drove a 15% increase in conversion rates by evaluating consumer journeys, audience segments, and multi-channel campaign ROI. </li>
+<li>Cut manual report generation time by ~50% by automating recurring data preparation pipelines using Alteryx, Power Query, and Tableau Prep.</li>
+<li>Engineered executive-level Tableau and Power BI dashboards, KPI scorecards, and visual presentations using advanced DAX.</li>
+<li>Co-led a 6-month Tableau Server-to-Cloud migration and developed two Microsoft Copilot Studio AI agents for internal insights and search.</li>
+          </ul>
+          <div class="xp-chip-row">
+            <span class="xp-chip">Tableau</span><span class="xp-chip">Power BI</span>
+            <span class="xp-chip">DAX</span><span class="xp-chip">Alteryx</span>
+            <span class="xp-chip">Snowflake SQL</span><span class="xp-chip">SSIS</span><span class="xp-chip">Tableau Prep</span>
+            <span class="xp-chip">Google Analytics (GA4)</span><span class="xp-chip">Adobe Analytics</span><span class="xp-chip">Microsoft Copilot Studio</span>
+          </div>
+        </div>
+      </div>
+      <div class="xp reveal">
+        <div class="xp-left">
+          <div class="xp-logo-box">🏛</div>
+          <div class="xp-connector"></div>
+        </div>
+        <div class="xp-right">
+          <div class="xp-meta">
+            <div><div class="xp-role">Senior Analyst - Analytics</div><div class="xp-co">IPPL</div></div>
+            <span class="xp-badge" style="background:rgba(26,115,232,.08);border-color:rgba(26,115,232,.2);color:var(--blue)">2 years 10 months</span>
+          </div>
+          <div class="xp-period-text">Mar 2019 – Jan 2023 &nbsp;·&nbsp; Full-time &nbsp;·&nbsp; Mumbai, MH, India</div>
+          <ul class="xp-bul">
+<li>Led a 6-month BI transformation initiative transitioning leadership from static reports to centralized, interactive Tableau dashboards.</li>
+<li>Managed massive datasets exceeding 10 million records by writing optimized SQL scripts and executing rigorous ETL quality checks.</li>
+<li>Resolved website tagging discrepancies and data availability gaps across AEM, Google Analytics, and GA4 with external partners.</li>
+<li>Administered Tableau Server environments for ~2 years, overseeing publishing, refresh schedules, and user provisioning.</li>
+          </ul>
+          <div class="xp-chip-row">
+<span class="xp-chip">Tableau</span> <span class="xp-chip">Power BI</span>
+<span class="xp-chip">SQL / SQL Server</span> <span class="xp-chip">ETL</span>
+<span class="xp-chip">Google Analytics / GA4</span> <span class="xp-chip">Adobe Analytics</span>
+<span class="xp-chip">AEM</span> <span class="xp-chip">Tableau Server Administration</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="xp reveal">
+        <div class="xp-left">
+          <div class="xp-logo-box">🏛</div>
+          <div class="xp-connector"></div>
+        </div>
+        <div class="xp-right">
+          <div class="xp-meta">
+            <div><div class="xp-role">Data Analyst</div><div class="xp-co">HT</div></div>
+            <span class="xp-badge" style="background:rgba(26,115,232,.08);border-color:rgba(26,115,232,.2);color:var(--blue)">2 years</span>
+          </div>
+          <div class="xp-period-text">Mar 2017 – Mar 2019 &nbsp;·&nbsp; Full-time &nbsp;·&nbsp; Mumbai, MH, India</div>
+          <ul class="xp-bul">
+<li>Reduced manual workload by 30% by introducing SQL Server and foundational BI tooling for repeatable data extraction.</li>
+<li>Implemented Tableau-based reporting frameworks and data-driven visualization materials for internal operations and sales.</li>
+<li>Handled large-scale datasets exceeding 10 million records to support strategic research initiatives across Pharmaceutical, REIT, and Energy sectors.</li>
+<li>Performed intensive data mining, lineage analysis, validation, and UAT across structured and unstructured text datasets.</li>
+          </ul>
+          <div class="xp-chip-row">
+<span class="xp-chip">SQL Server</span><span class="xp-chip">Tableau</span>
+<span class="xp-chip">Data Mining & UAT</span><span class="xp-chip">Data Validation</span>
+<span class="xp-chip">Unstructured Data / NLP</span><span class="xp-chip">Research & Reporting</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="xp reveal">
+        <div class="xp-left">
+          <div class="xp-logo-box">🏛</div>
+          <div class="xp-connector"></div>
+        </div>
+        <div class="xp-right">
+          <div class="xp-meta">
+            <div><div class="xp-role">Team Lead & Research Specialist</div><div class="xp-co">EIPL</div></div>
+            <span class="xp-badge" style="background:rgba(26,115,232,.08);border-color:rgba(26,115,232,.2);color:var(--blue)">7.9 years</span>
+          </div>
+          <div class="xp-period-text">Jun 2009 – Mar 2017 &nbsp;·&nbsp; Full-time &nbsp;·&nbsp; Mumbai, MH, India</div>
+          <ul class="xp-bul">
+<li>Generated a 40% reduction in operating costs by directing the complex in-sourcing of previously outsourced business operations.</li>
+<li>Expanded content coverage by 20% and secured contract renewals by managing a 9-member team for a strategic diversification project.</li>
+<li>Instituted structured operational workflows and quality checklists to mentor incoming team members and guarantee delivery consistency.</li>
+<li>Maintained enterprise BI databases and upheld strict quality standards for client reporting and market research.</li>
+          </ul>
+          <div class="xp-chip-row">
+<span class="xp-chip">Team Leadership</span><span class="xp-chip">Process In-Sourcing</span>
+<span class="xp-chip">Operational Excellence</span><span class="xp-chip">Workflow Standardization</span>
+<span class="xp-chip">Quality Assurance</span><span class="xp-chip">Secondary Research</span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  <!-- PROJECTS Design: Interactive Split Viewport Drawer-->
+<div class="sw reveal" id="projects">
+    <div class="sh">
+      <span class="sh-tag">Featured Projects</span>
+      <h2 class="sh-title">Select work</h2>
+      <p class="sh-sub">Interactive dashboards, insightful analytics, and compelling data visualizations that transform complex data into meaningful stories.</p>
+      <div class="divider"></div>
+    </div>
+
+    <div class="split-projects-wrapper">
+      <!-- LEFT: Project Index List -->
+      <div class="split-list" id="projectIndexList">
+         <button class="split-item active" onclick="switchProject(0)">
+          <span class="split-item-num">01</span>
+          <div class="split-item-info">
+            <h4>Marketing Analysis Dashboard</h4>
+            <span> Marketing Analysis · Power BI </span>
+          </div>
+        </button>
+        <button class="split-item" onclick="switchProject(1)">
+          <span class="split-item-num">02</span>
+          <div class="split-item-info">
+            <h4>The Growth of UPI in India</h4>
+            <span> UPI Growth · Tableau </span>
+          </div>
+        </button>
+        <button class="split-item" onclick="switchProject(2)">
+          <span class="split-item-num">03</span>
+          <div class="split-item-info">
+            <h4>South Asian Seismic Activities</h4>
+            <span>Geospatial Mapping · Tableau</span>
+          </div>
+        </button>
+        <button class="split-item" onclick="switchProject(3)">
+          <span class="split-item-num">04</span>
+          <div class="split-item-info">
+            <h4>HR Attrition Dashboard</h4>
+            <span>HR Analytics · Tableau</span>
+          </div>
+        </button>
+        <button class="split-item" onclick="switchProject(4)">
+          <span class="split-item-num">05</span>
+          <div class="split-item-info">
+            <h4>Superstore Sales Snapshot</h4>
+            <span>Business KPIs · Power BI</span>
+          </div>
+        </button>
+        <button class="split-item" onclick="switchProject(5)">
+          <span class="split-item-num">06</span>
+          <div class="split-item-info">
+            <h4>India River Currents Unveiled</h4>
+            <span>Sankey Diagram · Tableau</span>
+          </div>
+        </button>
+        <button class="split-item" onclick="switchProject(6)">
+          <span class="split-item-num">07</span>
+          <div class="split-item-info">
+            <h4>Monsoon Melodies: Indian Rainfall</h4>
+            <span>Climate Analytics · Tableau</span>
+          </div>
+        </button>
+      </div>
+
+      <!-- RIGHT: Live Preview Stage -->
+      <div class="split-stage" id="projectStage">
+        <div class="stage-browser">
+          <div class="stage-browser-bar">
+            <div class="browser-dots">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+            </div>
+            <div class="browser-url" id="stageUrl">https://github.com/sanndeeph</div>
+          </div>
+          <div class="stage-image-wrap">
+            <img id="stageImg" src="projects/assets/Marketing.png" alt="Project Preview">
+          </div>
+        </div>
+
+        <div class="stage-content">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size: 1.25rem;" id="stageEmoji">📊</span>
+            <div class="stage-links">
+              <a id="stageGitHub" href="https://github.com/sanndeeph" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:var(--blue);">GitHub ↗</a>
+              <a id="stageLive" href="https://public.tableau.com/app/profile/sandeep.h/viz/TheGrowthofUPIinIndia/Main" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:#0070f3;font-weight:600;">Live Demo ↗</a>
+            </div>
+          </div>
+          <h3 class="stage-title" id="stageTitle">Marketing Analysis - Power BI Dashboard</h3>
+          <p class="stage-body" id="stageBody">Evaluating multi-channel marketing performance through campaign ROI, customer acquisition costs, and conversion funnel metrics, turning marketing data into actionable growth strategies.</p>
+          <div class="stage-highlight" id="stageHighlight">Campaign ROI Tracking · Multi-Channel Attribution · Conversion Funnel · Customer Acquisition</div>
+          
+          <div class="stage-footer">
+            <div class="stage-tags" id="stageTags">
+              <span class="stage-tag">Power BI</span>
+              <span class="stage-tag">Marketing Analytics</span>
+              <span class="stage-tag">DAX</span>
+              <span class="stage-tag">Campaign ROI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<!-- Archived PROJECTS Design 
+<div class="sw reveal" id="projects">
+  <div class="sh">
+    <span class="sh-tag">Featured Projects</span>
+    <h2 class="sh-title">Select work</h2>
+    <p class="sh-sub">Interactive dashboards, insightful analytics, and compelling data visualizations that transform complex data into meaningful stories.</p>
+    <div class="divider"></div>
+  </div>
+  <div class="pj-grid">
+    <div class="pj-card reveal">
+<div class="pj-hd"><div class="pj-emoji"> 📊 </div><div style="display:flex;gap:.5rem"><a href="https://github.com/sanndeeph" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:var(--blue)">GitHub ↗</a><a href="https://public.tableau.com/app/profile/sandeep.h/viz/TheGrowthofUPIinIndia/Main" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:#0070f3;font-weight:600">Live Demo ↗</a></div></div>
+      <div class="pj-title">The Growth of UPI in India - Tableau Dashboard</div>
+      <div class="pj-body"> Tracing India's digital payment revolution through transaction trends, leading UPI platforms, and regional adoption patterns, revealing how UPI has transformed everyday financial transactions.</div>
+      <div class="pj-highlight"> Interactive Visualizations · Geographical Insights · Figma-Designed Layout</div>
+      <div class="pj-tags"><span class="pj-t">Tableau Desktop</span><span class="pj-t">Figma</span><span class="pj-t">NPCI Data</span><span class="pj-t">SVG</span><span class="pj-t">Data Visualization</span></div>
+    </div>
+    <div class="pj-card reveal">
+      <div class="pj-hd"><div class="pj-emoji"> 📊 </div><div style="display:flex;gap:.5rem"><a href="https://github.com/sanndeeph" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:var(--blue)">GitHub ↗</a><a href="https://public.tableau.com/app/profile/sandeep.h/viz/SouthAsiaEarthquakes/Dashboard" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:#0070f3;font-weight:600">Live Demo ↗</a></div></div>
+      <div class="pj-title">South Asian Seismic Activities - Tableau Dashboard</div>
+      <div class="pj-body">Mapping the pulse of South Asia's seismic landscape through a visually engaging interface, creatively designed in Figma to showcase earthquake activity and geographical patterns.</div>
+      <div class="pj-highlight">Geospatial Visualization · Seismic Activity Mapping · Custom UI Design · Regional Analysis</div>
+      <div class="pj-tags"><span class="pj-t">Tableau Desktop</span><span class="pj-t">Figma</span><span class="pj-t">UI/UX Design</span><span class="pj-t">Geospatial Mapping</span><span class="pj-t">Earthquake Data</span></div>
+    </div>
+    <div class="pj-card reveal">
+      <div class="pj-hd"><div class="pj-emoji"> 📊 </div><div style="display:flex;gap:.5rem"><a href="https://github.com/sanndeeph" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:var(--blue)">GitHub ↗</a><a href="https://public.tableau.com/app/profile/sandeep.h/viz/HRAttritionDashboard_17138980302280/HRDashboard" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:#0070f3;font-weight:600">Live Demo ↗</a></div></div>
+      <div class="pj-title">HR Attrition - Tableau Dashboard</div>
+      <div class="pj-body">Uncovering the story behind employee turnover through workforce demographics, attrition patterns, and key retention indicators, transforming HR data into meaningful workforce insights.</div>
+      <div class="pj-highlight">Employee Attrition Analysis · Workforce Demographics · Retention Insights · HR KPI Tracking</div>
+      <div class="pj-tags"><span class="pj-t">Tableau Desktop</span><span class="pj-t">Figma Web App</span><span class="pj-t">HR Analytics</span><span class="pj-t">KPI Analysis</span><span class="pj-t">Data Visualization</span></div>
+    </div>
+    <div class="pj-card reveal">
+      <div class="pj-hd"><div class="pj-emoji"> 📊 </div><div style="display:flex;gap:.5rem"><a href="https://github.com/sanndeeph" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:var(--blue)">GitHub ↗</a><a href="https://drive.google.com/file/d/1lPA1R1XbmqjrqfnofX6p4eP7u9u-_NF9/view" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:#0070f3;font-weight:600">Live Demo ↗</a></div></div>
+      <div class="pj-title">Superstore Sales Snapshot - Power BI Dashboard</div>
+      <div class="pj-body">A comprehensive snapshot of retail performance, bringing sales, profitability, product categories, and regional trends together to uncover business opportunities and growth drivers.</div>
+      <div class="pj-highlight">Sales Performance Tracking · Profitability Analysis · Regional Comparisons · Business KPI Monitoring</div>
+      <div class="pj-tags"><span class="pj-t">Power BI</span><span class="pj-t">Sales Analytics</span><span class="pj-t">Business Intelligence</span><span class="pj-t">KPI Dashboard</span></div>
+    </div>
+        <div class="pj-card reveal">
+      <div class="pj-hd"><div class="pj-emoji"> 📊 </div><div style="display:flex;gap:.5rem"><a href="https://github.com/parthlashkari/formforge" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:var(--blue)">GitHub ↗</a><a href="https://public.tableau.com/app/profile/sandeep.h/viz/RiverCurrentsUnveiledASankeyJourney/Sankey" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:#0070f3;font-weight:600">Live Demo ↗</a></div></div>
+      <div class="pj-title">India River Currents Unveiled - Tableau Sankey Dashboard</div>
+      <div class="pj-body">Following the flow of India's mighty rivers through captivating Sankey visualizations, revealing the connections and geographical relationships that shape the nation's river networks.</div>
+      <div class="pj-highlight">Sankey Flow Visualization · River Network Mapping · Geographical Connections · Visual Storytelling</div>
+      <div class="pj-tags"><span class="pj-t">Tableau Desktop</span><span class="pj-t">Sankey Diagram</span><span class="pj-t">Geospatial Analytics</span><span class="pj-t">Flow Visualization</span></div>
+    </div>
+    <div class="pj-card reveal">
+      <div class="pj-hd"><div class="pj-emoji"> 📊 </div><div style="display:flex;gap:.5rem"><a href="https://github.com/parthlashkari/formforge" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:var(--blue)">GitHub ↗</a><a href="https://public.tableau.com/app/profile/sandeep.h/viz/TheIndianRainfall_17104510807460/Dashboard" target="_blank" rel="noopener noreferrer" class="pj-cat" style="text-decoration:none;color:#0070f3;font-weight:600">Live Demo ↗</a></div></div>
+      <div class="pj-title">Monsoon Melodies: Exploring Indian Rainfall - Tableau Dashboard</div>
+      <div class="pj-body">Decoding India's monsoon story through rainfall trends, seasonal shifts, and regional variations, bringing the country's diverse precipitation patterns to life through compelling data visualizations.</div>
+      <div class="pj-highlight">Historical Rainfall Trends · Seasonal Pattern Analysis · Regional Comparisons · Climate Data Exploration</div>
+      <div class="pj-tags"><span class="pj-t">Tableau Desktop</span><span class="pj-t">Climate Analytics</span><span class="pj-t">Time Series Analysis</span><span class="pj-t">Geospatial Visualization</span></div>
+    </div>
+  </div>
+</div> -->
+
+<!-- AWARDS + EDUCATION -->
+  <!-- Temporarily disabled -->
+    <!-- 
+<div style="background: var(--light)">
+  <div class="sw reveal">
+    <div class="sh">
+      <span class="sh-tag">Recognition & Education</span>
+      <h2 class="sh-title">Honors & Background</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="aw-row">
+      <div class="aw-c reveal">
+        <div class="aw-icon-box">🏆</div>
+        <div>
+          <div class="aw-c-title">Standing Ovation Award × 3</div>
+          <div class="aw-c-org">Enterprise Software Corp</div>
+          <div class="aw-c-desc">Company's highest peer recognition — received three times for consistently delivering major product milestones with the latest technology stack and exceeding expectations.</div>
+        </div>
+      </div>
+      <div class="aw-c reveal">
+        <div class="aw-icon-box">⭐</div>
+        <div>
+          <div class="aw-c-title">High-5 Award</div>
+          <div class="aw-c-org">Enterprise Software Corp</div>
+          <div class="aw-c-desc">Recognized for delivering the beta version of a flagship product ahead of schedule, demonstrating exceptional focus and engineering execution under pressure.</div>
+        </div>
+      </div>
+      <div class="aw-c reveal">
+        <div class="aw-icon-box">🎓</div>
+        <div>
+          <div class="aw-c-title">PG DIT — CGPA 6</div>
+          <div class="aw-c-org">SCDL, Pune · 2013–2016</div>
+          <div class="aw-c-desc"> Symbiosis University, Pune</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  -->
+<!-- CONTACT -->
+<div class="contact-strip" id="contact">
+  <h2 class="cs-title">Ready to work together?</h2>
+  <p class="cs-sub">I'm open to Senior Analyst, Tableau Developer, Tableau Administrator, BI Analyst, Power BI Analyst and BI roles. Let's have a conversation.</p>
+  <a href="mailto:sanndeeph@gmail.com" class="cs-email">sanndeeph@gmail.com</a>
+  <div class="cs-socials">
+    <a href="https://www.linkedin.com/in/sandeep-h/" target="_blank" rel="noopener noreferrer" class="cs-soc">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7H10V9h4v2a6 6 0 016-3zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn
+    </a>
+    <a href="https://github.com/sanndeeph" target="_blank" rel="noopener noreferrer" class="cs-soc">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>GitHub
+    </a>
+    <a href="tel:+918888888888" class="cs-soc">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>+91 8850006230
+    </a>
+  </div>
+</div>
+<footer>© 2026 Sandeep H · Senior BI Analyst · All rights reserved</footer>
+
+<script>
+  const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting) e.target.classList.add('show'); }), {threshold:.08});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+    const projectsData = [
+            {
+        title: "Marketing Analysis - Power BI Dashboard",
+        body: "Evaluating multi-channel marketing performance through campaign ROI, customer acquisition costs, and conversion funnel metrics, turning marketing data into actionable growth strategies.",
+        highlight: "Campaign ROI Tracking · Multi-Channel Attribution · Conversion Funnel · Customer Acquisition",
+        tags: ["Power BI", "Fabric", "Marketing Analytics", "DAX", "Campaign ROI", "Data Visualization"],
+        github: "https://github.com/sanndeeph",
+        live: "https://github.com/sanndeeph",
+        url: "https://github.com/sanndeeph",
+        img: "projects/assets/Marketing.png",
+        emoji: "📊"
+      },
+      {
+        title: "The Growth of UPI in India - Tableau Dashboard",
+        body: "Tracing India's digital payment revolution through transaction trends, leading UPI platforms, and regional adoption patterns, revealing how UPI has transformed everyday financial transactions.",
+        highlight: "Interactive Visualizations · Geographical Insights · Figma-Designed Layout",
+        tags: ["Tableau Desktop", "Figma", "NPCI Data", "SVG", "Data Visualization"],
+        github: "https://github.com/sanndeeph",
+        live: "https://public.tableau.com/app/profile/sandeep.h/viz/TheGrowthofUPIinIndia/Main",
+        url: "tableau.com/upi-growth-india",
+        img: "projects/assets/UPI.png",
+        emoji: "📊"
+      },
+      {
+        title: "South Asian Seismic Activities - Tableau Dashboard",
+        body: "Mapping the pulse of South Asia's seismic landscape through a visually engaging interface, creatively designed in Figma to showcase earthquake activity and geographical patterns.",
+        highlight: "Geospatial Visualization · Seismic Activity Mapping · Custom UI Design",
+        tags: ["Tableau Desktop", "Figma", "UI/UX Design", "Geospatial Mapping", "Earthquake Data"],
+        github: "https://github.com/sanndeeph",
+        live: "https://public.tableau.com/app/profile/sandeep.h/viz/SouthAsiaEarthquakes/Dashboard",
+        url: "tableau.com/south-asia-earthquakes",
+        img: "projects/assets/Earthquake.png",
+        emoji: "📊"
+      },
+      {
+        title: "HR Attrition - Tableau Dashboard",
+        body: "Uncovering the story behind employee turnover through workforce demographics, attrition patterns, and key retention indicators, transforming HR data into meaningful workforce insights.",
+        highlight: "Employee Attrition Analysis · Workforce Demographics · Retention Insights",
+        tags: ["Tableau Desktop", "Figma Web App", "HR Analytics", "KPI Analysis", "Data Visualization"],
+        github: "https://github.com/sanndeeph",
+        live: "https://public.tableau.com/app/profile/sandeep.h/viz/HRAttritionDashboard_17138980302280/HRDashboard",
+        url: "tableau.com/hr-attrition-insights",
+        img: "projects/assets/HR.png",
+        emoji: "📊"
+      },
+      {
+        title: "Superstore Sales Snapshot - Power BI Dashboard",
+        body: "A comprehensive snapshot of retail performance, bringing sales, profitability, product categories, and regional trends together to uncover business opportunities and growth drivers.",
+        highlight: "Sales Performance Tracking · Profitability Analysis · Business KPI Monitoring",
+        tags: ["Power BI", "Sales Analytics", "Business Intelligence", "KPI Dashboard"],
+        github: "https://github.com/sanndeeph",
+        live: "https://github.com/sanndeeph",
+        url: "https://github.com/sanndeeph",
+        img: "projects/assets/Superstore.png",
+        emoji: "📊"
+      },
+      {
+        title: "India River Currents Unveiled - Tableau Sankey Dashboard",
+        body: "Following the flow of India's mighty rivers through captivating Sankey visualizations, revealing the connections and geographical relationships that shape the nation's river networks.",
+        highlight: "Sankey Flow Visualization · River Network Mapping · Visual Storytelling",
+        tags: ["Tableau Desktop", "Sankey Diagram", "Geospatial Analytics", "Flow Visualization"],
+        github: "https://github.com/parthlashkari/formforge",
+        live: "https://public.tableau.com/app/profile/sandeep.h/viz/RiverCurrentsUnveiledASankeyJourney/Sankey",
+        url: "tableau.com/india-river-currents",
+        img: "projects/assets/River.png",
+        emoji: "📊"
+      },
+      {
+        title: "Monsoon Melodies: Exploring Indian Rainfall - Tableau Dashboard",
+        body: "Decoding India's monsoon story through rainfall trends, seasonal shifts, and regional variations, bringing the country's diverse precipitation patterns to life through compelling data visualizations.",
+        highlight: "Historical Rainfall Trends · Seasonal Pattern Analysis · Climate Analytics",
+        tags: ["Tableau Desktop", "Climate Analytics", "Time Series Analysis", "Geospatial Visualization"],
+        github: "https://github.com/parthlashkari/formforge",
+        live: "https://public.tableau.com/app/profile/sandeep.h/viz/TheIndianRainfall_17104510807460/Dashboard",
+        url: "tableau.com/monsoon-melodies",
+        img: "projects/assets/Rainfall.png",
+        emoji: "📊"
+      }
+    ];
+
+    function switchProject(index) {
+      const p = projectsData[index];
+      
+      document.getElementById('stageTitle').innerText = p.title;
+      document.getElementById('stageBody').innerText = p.body;
+      document.getElementById('stageHighlight').innerText = p.highlight;
+      document.getElementById('stageUrl').innerText = p.url;
+      document.getElementById('stageImg').src = p.img;
+      document.getElementById('stageEmoji').innerText = p.emoji;
+      document.getElementById('stageGitHub').href = p.github;
+      document.getElementById('stageLive').href = p.live;
+      
+      const tagsContainer = document.getElementById('stageTags');
+      tagsContainer.innerHTML = p.tags.map(t => `<span class="stage-tag">${t}</span>`).join('');
+      
+      const buttons = document.querySelectorAll('#projectIndexList .split-item');
+      buttons.forEach((btn, idx) => {
+        if (idx === index) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+    }
+</script>
+  
+</body>
+</html>
